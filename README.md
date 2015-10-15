@@ -1,5 +1,6 @@
 # WatchOS2-DatePicker
-Create new Date Picker in WatchOS 2
+
+Design your own Date Picker for WatchKit.  
 
 
 ![alt tag](https://github.com/rrramanan/WatchOS2-DatePicker/blob/master/DatePicker.png?raw=true) 
