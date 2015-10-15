@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EB3C9C31BCF78DA00B65747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3C9C21BCF78DA00B65747 /* main.m */; };
+		4EB3C9C61BCF78DA00B65747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3C9C51BCF78DA00B65747 /* AppDelegate.m */; };
+		4EB3C9C91BCF78DA00B65747 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3C9C81BCF78DA00B65747 /* ViewController.m */; };
+		4EB3C9CC1BCF78DA00B65747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB3C9CA1BCF78DA00B65747 /* Main.storyboard */; };
+		4EB3C9CE1BCF78DA00B65747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB3C9CD1BCF78DA00B65747 /* Assets.xcassets */; };
+		4EB3C9D11BCF78DA00B65747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB3C9CF1BCF78DA00B65747 /* LaunchScreen.storyboard */; };
+		4EB3C9D61BCF78DA00B65747 /* watchDatePicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4EB3C9D51BCF78DA00B65747 /* watchDatePicker WatchKit App.app */; };
+		4EB3C9DC1BCF78DA00B65747 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB3C9DA1BCF78DA00B65747 /* Interface.storyboard */; };
+		4EB3C9DE1BCF78DA00B65747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB3C9DD1BCF78DA00B65747 /* Assets.xcassets */; };
+		4EB3C9E51BCF78DA00B65747 /* watchDatePicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4EB3C9E41BCF78DA00B65747 /* watchDatePicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4EB3C9EB1BCF78DA00B65747 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3C9EA1BCF78DA00B65747 /* InterfaceController.m */; };
+		4EB3C9EE1BCF78DA00B65747 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB3C9ED1BCF78DA00B65747 /* ExtensionDelegate.m */; };
+		4EB3C9F01BCF78DA00B65747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB3C9EF1BCF78DA00B65747 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EB3C9D71BCF78DA00B65747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB3C9B61BCF78DA00B65747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB3C9D41BCF78DA00B65747;
+			remoteInfo = "watchDatePicker WatchKit App";
+		};
+		4EB3C9E61BCF78DA00B65747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB3C9B61BCF78DA00B65747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB3C9E31BCF78DA00B65747;
+			remoteInfo = "watchDatePicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EB3C9F71BCF78DA00B65747 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4EB3C9E51BCF78DA00B65747 /* watchDatePicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB3C9FB1BCF78DA00B65747 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4EB3C9D61BCF78DA00B65747 /* watchDatePicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4EB3C9BE1BCF78DA00B65747 /* watchDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB3C9C21BCF78DA00B65747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EB3C9C41BCF78DA00B65747 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EB3C9C51BCF78DA00B65747 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EB3C9C71BCF78DA00B65747 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EB3C9C81BCF78DA00B65747 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EB3C9CB1BCF78DA00B65747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EB3C9CD1BCF78DA00B65747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EB3C9D01BCF78DA00B65747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EB3C9D21BCF78DA00B65747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB3C9D51BCF78DA00B65747 /* watchDatePicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchDatePicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB3C9DB1BCF78DA00B65747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4EB3C9DD1BCF78DA00B65747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EB3C9DF1BCF78DA00B65747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB3C9E41BCF78DA00B65747 /* watchDatePicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchDatePicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB3C9E91BCF78DA00B65747 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4EB3C9EA1BCF78DA00B65747 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4EB3C9EC1BCF78DA00B65747 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		4EB3C9ED1BCF78DA00B65747 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		4EB3C9EF1BCF78DA00B65747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EB3C9F11BCF78DA00B65747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB3C9BB1BCF78DA00B65747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB3C9E11BCF78DA00B65747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EB3C9B51BCF78DA00B65747 = {
+			isa = PBXGroup;
+			children = (
+				4EB3C9C01BCF78DA00B65747 /* watchDatePicker */,
+				4EB3C9D91BCF78DA00B65747 /* watchDatePicker WatchKit App */,
+				4EB3C9E81BCF78DA00B65747 /* watchDatePicker WatchKit Extension */,
+				4EB3C9BF1BCF78DA00B65747 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EB3C9BF1BCF78DA00B65747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EB3C9BE1BCF78DA00B65747 /* watchDatePicker.app */,
+				4EB3C9D51BCF78DA00B65747 /* watchDatePicker WatchKit App.app */,
+				4EB3C9E41BCF78DA00B65747 /* watchDatePicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EB3C9C01BCF78DA00B65747 /* watchDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4EB3C9C41BCF78DA00B65747 /* AppDelegate.h */,
+				4EB3C9C51BCF78DA00B65747 /* AppDelegate.m */,
+				4EB3C9C71BCF78DA00B65747 /* ViewController.h */,
+				4EB3C9C81BCF78DA00B65747 /* ViewController.m */,
+				4EB3C9CA1BCF78DA00B65747 /* Main.storyboard */,
+				4EB3C9CD1BCF78DA00B65747 /* Assets.xcassets */,
+				4EB3C9CF1BCF78DA00B65747 /* LaunchScreen.storyboard */,
+				4EB3C9D21BCF78DA00B65747 /* Info.plist */,
+				4EB3C9C11BCF78DA00B65747 /* Supporting Files */,
+			);
+			path = watchDatePicker;
+			sourceTree = "<group>";
+		};
+		4EB3C9C11BCF78DA00B65747 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EB3C9C21BCF78DA00B65747 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EB3C9D91BCF78DA00B65747 /* watchDatePicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4EB3C9DA1BCF78DA00B65747 /* Interface.storyboard */,
+				4EB3C9DD1BCF78DA00B65747 /* Assets.xcassets */,
+				4EB3C9DF1BCF78DA00B65747 /* Info.plist */,
+			);
+			path = "watchDatePicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		4EB3C9E81BCF78DA00B65747 /* watchDatePicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4EB3C9E91BCF78DA00B65747 /* InterfaceController.h */,
+				4EB3C9EA1BCF78DA00B65747 /* InterfaceController.m */,
+				4EB3C9EC1BCF78DA00B65747 /* ExtensionDelegate.h */,
+				4EB3C9ED1BCF78DA00B65747 /* ExtensionDelegate.m */,
+				4EB3C9EF1BCF78DA00B65747 /* Assets.xcassets */,
+				4EB3C9F11BCF78DA00B65747 /* Info.plist */,
+			);
+			path = "watchDatePicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EB3C9BD1BCF78DA00B65747 /* watchDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB3C9FC1BCF78DA00B65747 /* Build configuration list for PBXNativeTarget "watchDatePicker" */;
+			buildPhases = (
+				4EB3C9BA1BCF78DA00B65747 /* Sources */,
+				4EB3C9BB1BCF78DA00B65747 /* Frameworks */,
+				4EB3C9BC1BCF78DA00B65747 /* Resources */,
+				4EB3C9FB1BCF78DA00B65747 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB3C9D81BCF78DA00B65747 /* PBXTargetDependency */,
+			);
+			name = watchDatePicker;
+			productName = watchDatePicker;
+			productReference = 4EB3C9BE1BCF78DA00B65747 /* watchDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EB3C9D41BCF78DA00B65747 /* watchDatePicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB3C9F81BCF78DA00B65747 /* Build configuration list for PBXNativeTarget "watchDatePicker WatchKit App" */;
+			buildPhases = (
+				4EB3C9D31BCF78DA00B65747 /* Resources */,
+				4EB3C9F71BCF78DA00B65747 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB3C9E71BCF78DA00B65747 /* PBXTargetDependency */,
+			);
+			name = "watchDatePicker WatchKit App";
+			productName = "watchDatePicker WatchKit App";
+			productReference = 4EB3C9D51BCF78DA00B65747 /* watchDatePicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4EB3C9E31BCF78DA00B65747 /* watchDatePicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB3C9F41BCF78DA00B65747 /* Build configuration list for PBXNativeTarget "watchDatePicker WatchKit Extension" */;
+			buildPhases = (
+				4EB3C9E01BCF78DA00B65747 /* Sources */,
+				4EB3C9E11BCF78DA00B65747 /* Frameworks */,
+				4EB3C9E21BCF78DA00B65747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchDatePicker WatchKit Extension";
+			productName = "watchDatePicker WatchKit Extension";
+			productReference = 4EB3C9E41BCF78DA00B65747 /* watchDatePicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB3C9B61BCF78DA00B65747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vinod Ramanathan";
+				TargetAttributes = {
+					4EB3C9BD1BCF78DA00B65747 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4EB3C9D41BCF78DA00B65747 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4EB3C9E31BCF78DA00B65747 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EB3C9B91BCF78DA00B65747 /* Build configuration list for PBXProject "watchDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EB3C9B51BCF78DA00B65747;
+			productRefGroup = 4EB3C9BF1BCF78DA00B65747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EB3C9BD1BCF78DA00B65747 /* watchDatePicker */,
+				4EB3C9D41BCF78DA00B65747 /* watchDatePicker WatchKit App */,
+				4EB3C9E31BCF78DA00B65747 /* watchDatePicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EB3C9BC1BCF78DA00B65747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB3C9D11BCF78DA00B65747 /* LaunchScreen.storyboard in Resources */,
+				4EB3C9CE1BCF78DA00B65747 /* Assets.xcassets in Resources */,
+				4EB3C9CC1BCF78DA00B65747 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB3C9D31BCF78DA00B65747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB3C9DE1BCF78DA00B65747 /* Assets.xcassets in Resources */,
+				4EB3C9DC1BCF78DA00B65747 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB3C9E21BCF78DA00B65747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB3C9F01BCF78DA00B65747 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EB3C9BA1BCF78DA00B65747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB3C9C91BCF78DA00B65747 /* ViewController.m in Sources */,
+				4EB3C9C61BCF78DA00B65747 /* AppDelegate.m in Sources */,
+				4EB3C9C31BCF78DA00B65747 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB3C9E01BCF78DA00B65747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB3C9EE1BCF78DA00B65747 /* ExtensionDelegate.m in Sources */,
+				4EB3C9EB1BCF78DA00B65747 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EB3C9D81BCF78DA00B65747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB3C9D41BCF78DA00B65747 /* watchDatePicker WatchKit App */;
+			targetProxy = 4EB3C9D71BCF78DA00B65747 /* PBXContainerItemProxy */;
+		};
+		4EB3C9E71BCF78DA00B65747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB3C9E31BCF78DA00B65747 /* watchDatePicker WatchKit Extension */;
+			targetProxy = 4EB3C9E61BCF78DA00B65747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EB3C9CA1BCF78DA00B65747 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB3C9CB1BCF78DA00B65747 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EB3C9CF1BCF78DA00B65747 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB3C9D01BCF78DA00B65747 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4EB3C9DA1BCF78DA00B65747 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB3C9DB1BCF78DA00B65747 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EB3C9F21BCF78DA00B65747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EB3C9F31BCF78DA00B65747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EB3C9F51BCF78DA00B65747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "watchDatePicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.watchDatePicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4EB3C9F61BCF78DA00B65747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "watchDatePicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.watchDatePicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4EB3C9F91BCF78DA00B65747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = watchDatePicker_WatchKit_Extension;
+				INFOPLIST_FILE = "watchDatePicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.watchDatePicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4EB3C9FA1BCF78DA00B65747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = watchDatePicker_WatchKit_Extension;
+				INFOPLIST_FILE = "watchDatePicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.watchDatePicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4EB3C9FD1BCF78DA00B65747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = watchDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.watchDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EB3C9FE1BCF78DA00B65747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = watchDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.watchDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EB3C9B91BCF78DA00B65747 /* Build configuration list for PBXProject "watchDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB3C9F21BCF78DA00B65747 /* Debug */,
+				4EB3C9F31BCF78DA00B65747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB3C9F41BCF78DA00B65747 /* Build configuration list for PBXNativeTarget "watchDatePicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB3C9F51BCF78DA00B65747 /* Debug */,
+				4EB3C9F61BCF78DA00B65747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EB3C9F81BCF78DA00B65747 /* Build configuration list for PBXNativeTarget "watchDatePicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB3C9F91BCF78DA00B65747 /* Debug */,
+				4EB3C9FA1BCF78DA00B65747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EB3C9FC1BCF78DA00B65747 /* Build configuration list for PBXNativeTarget "watchDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB3C9FD1BCF78DA00B65747 /* Debug */,
+				4EB3C9FE1BCF78DA00B65747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EB3C9B61BCF78DA00B65747 /* Project object */;
+}
