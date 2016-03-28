@@ -1,4 +1,4 @@
-# WatchOS2-DatePicker
+# watchOS 2-DatePicker
 
  Date Picker for WatchKit.  
 
