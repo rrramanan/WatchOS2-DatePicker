@@ -30,7 +30,7 @@ NSString   *year;
 
 NSString   *getMonth = @"01";
 NSString   *getDay   = @"01";
-NSString   *getYear  = @"2015";
+NSString   *getYear  = @"2015"; //2015
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
@@ -173,7 +173,9 @@ YearLoad = [[NSMutableArray alloc] initWithObjects:@"2015",@"2016",@"2017",@"201
             
             if (yearmatch == 0) {
                 
-                [_Year_Label setText:@"2015"];
+                NSString *strYear =@"2015";
+                // NSString *newString = [strYear substringFromIndex:2];
+                [_Year_Label setText:strYear];
                 
             }
             
@@ -188,7 +190,14 @@ YearLoad = [[NSMutableArray alloc] initWithObjects:@"2015",@"2016",@"2017",@"201
     
     NSLog(@"OUTPUT %@",getTotalDate);
     
-    [_DateButton setTitle:getTotalDate];
+    
+    NSString *newString = [year substringFromIndex:2]; NSLog(@"year after sub str in start  - %@",newString);
+
+    NSString *newbuttonstr = [NSString stringWithFormat:@"%@/%@/%@",month,day,newString];
+
+    NSLog(@"button STR FIRST %@",newbuttonstr);
+    
+    [_DateButton setTitle:newbuttonstr];
     
 }
 
@@ -221,7 +230,9 @@ YearLoad = [[NSMutableArray alloc] initWithObjects:@"2015",@"2016",@"2017",@"201
              
              getMonth = getall;
              
-             getTotalDate = [NSString stringWithFormat:@"%@/%@/%@",getMonth,getDay,getYear];
+             NSString *newString = [getYear substringFromIndex:2]; NSLog(@"year after sub str - %@",newString); //year subSTR
+             
+             getTotalDate = [NSString stringWithFormat:@"%@/%@/%@",getMonth,getDay,newString]; //getYear
              
              NSLog(@"OUTPUT /Month -  %@",getTotalDate);
              
@@ -245,7 +256,9 @@ YearLoad = [[NSMutableArray alloc] initWithObjects:@"2015",@"2016",@"2017",@"201
     
     getDay = day.title;
     
-    getTotalDate = [NSString stringWithFormat:@"%@/%@/%@",getMonth,getDay,getYear];
+    NSString *newString = [getYear substringFromIndex:2]; NSLog(@"year after sub str - %@",newString); //year subSTR
+    
+    getTotalDate = [NSString stringWithFormat:@"%@/%@/%@",getMonth,getDay,newString]; //getYear
     
     NSLog(@"OUTPUT /Day - %@",getTotalDate);
     
@@ -263,7 +276,9 @@ YearLoad = [[NSMutableArray alloc] initWithObjects:@"2015",@"2016",@"2017",@"201
     
     getYear = year.title;
     
-    getTotalDate = [NSString stringWithFormat:@"%@/%@/%@",getMonth,getDay,getYear];
+    NSString *newString = [getYear substringFromIndex:2]; NSLog(@"year after sub str - %@",newString); //year subSTR
+    
+    getTotalDate = [NSString stringWithFormat:@"%@/%@/%@",getMonth,getDay,newString]; //getYear
     
     NSLog(@"OUTPUT /Year -  %@",getTotalDate);
     

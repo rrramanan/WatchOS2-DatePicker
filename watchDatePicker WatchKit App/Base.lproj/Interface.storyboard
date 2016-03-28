@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
@@ -10,34 +10,41 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <group width="136" height="88" alignment="center" spacing="1" id="oMy-uL-oIJ">
+                        <group width="136" height="88" alignment="left" spacing="0.0" id="oMy-uL-oIJ">
                             <items>
-                                <picker width="47" height="100" alignment="left" focusStyle="stack" id="Hi7-Ag-3Ha">
+                                <picker width="47" height="88" alignment="left" focusStyle="stack" id="Hi7-Ag-3Ha">
+                                    <variation key="device=watch42mm" height="110" width="53"/>
                                     <connections>
                                         <action selector="Month_Action:" destination="AgC-eL-Hgc" id="Pnh-qM-C8f"/>
                                     </connections>
                                 </picker>
-                                <picker width="34" height="100" alignment="left" focusStyle="stack" id="xNO-wg-lF3">
+                                <picker width="35" height="88" alignment="left" focusStyle="stack" id="xNO-wg-lF3">
+                                    <variation key="device=watch42mm" height="110" width="40"/>
                                     <connections>
                                         <action selector="Day_Action:" destination="AgC-eL-Hgc" id="ptu-Eg-X0d"/>
                                     </connections>
                                 </picker>
-                                <picker width="51" height="100" alignment="right" focusStyle="stack" id="rjx-41-evD">
+                                <picker width="52" height="88" alignment="left" focusStyle="stack" id="rjx-41-evD">
+                                    <variation key="device=watch42mm" alignment="left" height="110" width="57"/>
                                     <connections>
                                         <action selector="Year_Action:" destination="AgC-eL-Hgc" id="QnE-g0-dLa"/>
                                     </connections>
                                 </picker>
                             </items>
+                            <variation key="device=watch38mm" spacing="0.0"/>
+                            <variation key="device=watch42mm" height="110" spacing="1.7" width="154"/>
                         </group>
-                        <group width="1" height="29" alignment="left" spacing="2" id="5et-gl-40X">
+                        <group width="1" height="27" alignment="left" spacing="2" id="5et-gl-40X">
                             <items>
                                 <label width="45" height="30" alignment="left" text="MM" textAlignment="center" id="b4y-QT-kpv"/>
                                 <label width="38" height="30" alignment="left" text="DD" textAlignment="center" id="EMT-2m-tBS"/>
                                 <label width="46" height="30" alignment="left" text="YYYY" textAlignment="center" id="mBy-7j-xiu"/>
                             </items>
+                            <variation key="device=watch42mm" spacing="9"/>
                         </group>
-                        <button width="135" height="24.5" alignment="center" title="MM/DD/YYYY" id="P1j-yr-X65">
+                        <button width="135" height="26.5" alignment="left" title="MM/DD/YYYY" id="P1j-yr-X65">
                             <fontDescription key="font" type="system" pointSize="13"/>
+                            <variation key="device=watch42mm" width="154"/>
                             <connections>
                                 <action selector="DateAction" destination="AgC-eL-Hgc" id="QmB-1g-VFV"/>
                             </connections>
@@ -54,7 +61,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="204" y="260"/>
+            <point key="canvasLocation" x="151" y="270"/>
         </scene>
     </scenes>
 </document>
